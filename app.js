@@ -9,6 +9,7 @@ function getTranslatedUrl(text){
 }
 
 function errorHandeler(err){
+    alert("something went wrong.please refresh and try again.")
     console.log("something went wrong.please try again after some time",err);
 }
 
